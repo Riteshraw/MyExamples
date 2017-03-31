@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pinch_zoom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    tools:context="com.example.admin.myexamples.PinchZoom">
+
+<!--    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/pinchTitleText"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:scaleType="matrix"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone" />-->
+
+    <com.example.admin.myexamples.Service.ZoomableImageView
+        android:id="@+id/img_zoom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

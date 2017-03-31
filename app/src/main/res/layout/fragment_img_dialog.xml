@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorYellow"
+    android:orientation="vertical">
+
+    <com.example.admin.myexamples.Service.TouchImageView
+        android:id="@+id/img_zoom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:layout_margin="40dp"
+        android:layout_weight="0.43" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_rotRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roatate right" />
+
+        <Button
+            android:id="@+id/btn_rotLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roatate left" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_zoomIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom In" />
+
+        <Button
+            android:id="@+id/btn_zoomOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom Out" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
